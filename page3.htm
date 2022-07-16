@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Five links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+<body style="background-color:beige;">
+<nav>
+<div class="navbar">
+  <a href="C:\Users\yusuf\Downloads\page1.htm">Home</a> 
+  <a href="C:\Users\yusuf\Downloads\page2.htm">Intro</a>
+  <a class="active" href="C:\Users\yusuf\Downloads\page3.htm">Education</a>
+  <a href="C:\Users\yusuf\Downloads\page4.htm">Base</a>
+  <a href="C:\Users\yusuf\Downloads\page5.htm">Gallery</a>
+</div>
+</nav>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 200%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+<style>
+h1 {
+  border: 5px solid black;
+}
+</style>
+<h2>EDUCATION</h2>
+
+<div class="row">
+  <div class="column">
+    <table>
+      <tr>
+        <th>Rank</th>
+        <th>Family member</th>
+        <th>Education</th>
+        <th>Occupation</th>
+      </tr>
+      <tr>
+      	<td>General</td>
+        <td>Azhar</td>
+        <td>Bachelor of electrical engineering</td>
+        <td>Safety engineer</td>
+      </tr>
+      <tr>
+      	<td>Co-general</td>
+        <td>Noor Haraza</td>
+        <td>Bachelor of computer science</td>
+        <td>Ex-computer science employee</td>
+      </tr>
+      <div class="column">
+    <table>
+      <tr>
+        <th>Rank</th>
+        <th>Family member</th>
+        <th>Education</th>
+        <th>School</th>
+      </tr>
+      <tr>
+      	<td>Captain</td>
+        <td>Balqis</td>
+        <td>Bachelor in architecture</td>
+        <td>USIM</td>
+      </tr>
+      <tr>
+      	<td>Lieutenant</td>
+        <td>Ibrahim</td>
+        <td>Bachelor of electronic engineering</td>
+        <td>UNITEN</td>
+      </tr>
+      <tr>
+      	<td>Sergeant</td>
+        <td>Yusuf</td>
+        <td>IBDP</td>
+        <td>KMB</td>
+      </tr>
+      <tr>
+      	<td>Cadet</td>
+        <td>Muhammad</td>
+        <td>Secondary school</td>
+        <td>KGI</td>
+      </tr>
+      <tr>
+      	<td>Cadet</td>
+        <td>Maryam</td>
+        <td>Primary school</td>
+        <td>SRAI BBB</td>
+      </tr>
+    </table>
+</div>
+
+</body>
+</html>
